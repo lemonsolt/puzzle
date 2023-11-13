@@ -1,24 +1,35 @@
-# README
+# puzzle
+​
+## サイト概要
+### サイトテーマ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+画像をパズルにして楽しむことができるサイトです。
+​
 
-Things you may want to cover:
+### ターゲットユーザ
 
-* Ruby version
+- パズル好き
+- 好みの画像でパズル作りたい人
+​
+### 主な利用シーン
 
-* System dependencies
+- パズルで楽しみたい時
 
-* Configuration
+## 設計書
 
-* Database creation
+##### ER図
 
-* Database initialization
+##### テーブル定義書
 
-* How to run the test suite
+#####
+​
+## 開発環境
+- OS：Linux(CentOS)
+- 言語：HTML,CSS,JavaScript,Ruby,SQL
+- フレームワーク：Ruby on Rails
+- JSライブラリ：jQuery
+- IDE：Cloud9
+​
+## 使用素材
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ロイヤリティフリー画像サイト：pixabay
