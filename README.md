@@ -21,7 +21,7 @@
 ![puzzle](https://github.com/lemonsolt/puzzle/assets/135306445/d49732f6-e516-4097-9b8c-a0214046efc4)
 
 ##### テーブル定義書
-
+https://docs.google.com/spreadsheets/d/1iNmYm7pcXKIXHupskeSSdtpsGj0C87VOvIcSwh9LUas/edit?usp=sharing
 #####
 ​
 ## 開発環境
