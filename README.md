@@ -18,7 +18,7 @@
 ## 設計書
 
 ##### ER図
-![puzzle](https://github.com/lemonsolt/puzzle/assets/135306445/d49732f6-e516-4097-9b8c-a0214046efc4)
+![puzzle](https://github.com/lemonsolt/puzzle/assets/135306445/7db09d4b-c74a-4495-8bc5-6eea58352fec)
 
 ##### テーブル定義書
 https://docs.google.com/spreadsheets/d/1iNmYm7pcXKIXHupskeSSdtpsGj0C87VOvIcSwh9LUas/edit?usp=sharing
