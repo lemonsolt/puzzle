@@ -1,0 +1,13 @@
+<% form_with model: puzzle do |f| %>
+  <div>
+    <p>画像</p>
+    <%= f.file_field :image, accept: "image/*" %>
+  </div>
+  <div>
+    <p>タイトル</p>
+    <%= f.text_field :title %>
+  </div>
+  <div>
+    <%= f.submit "投稿する" %>
+  </div>
+<% end %>
