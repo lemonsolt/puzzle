@@ -1,2 +1,8 @@
-<h1>Users::PuzzleImages#show</h1>
-<p>Find me in app/views/users/puzzle_images/show.html.erb</p>
+<div class="container">
+  <div class="row">
+    <h4><%= @puzzle_image.title %></h4>
+  </div>
+  <div class="row">
+    <%= image_tag @puzzle_image.image_or_empty , size: "500x500" %>
+  </div>
+</div>
