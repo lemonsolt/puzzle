@@ -1,2 +1,16 @@
-<h1>Users::Homes#top</h1>
-<p>Find me in app/views/users/homes/top.html.erb</p>
+<div class="container">
+  <div class="row">
+    <div class="col-10 center-block mx-auto">
+      <h4 class="text-center">PUZZLEへようこそ！</h4>
+      <p class="pt-4 text-center">こちらは画像をアップしていただきそれをパズルにしたもので遊んでいただくサイトです</p>
+    </div>
+  </div>
+  <div class="row mx-auto pt-5">
+    <div class="col-6 text-center">
+      <%= link_to "新規登録",new_user_registration_path,class: "btn btn-dark" %>
+    </div>
+    <div class="col-6 text-center">
+      <%= link_to "ログイン",new_user_session_path,class: "btn btn-dark" %>
+    </div>
+  </div>
+</div>
