@@ -6,7 +6,7 @@
           <% if admin_signed_in? %>
             <%= render "layouts/header/admin"%>
           <% elsif user_signed_in? %>
-            <%= render "layouts/header/users"%>
+            <%= render "layouts/header/user"%>
           <% else %>
             <%= render "layouts/header/public" %>
           <% end %>
