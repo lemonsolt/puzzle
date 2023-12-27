@@ -1,2 +1,10 @@
-<h1>Users::Users#show</h1>
-<p>Find me in app/views/users/users/show.html.erb</p>
+<h4><%= @user.name %>のページ</h4>
+
+<%= image_tag @user.user_image_or_empty ,image: "100x100" %>
+
+<% @puzzle_images.each do |puzzle_image| %>
+  <%= link_to puzzle_image_path(puzzle_image.id),class: "text-secondary" do %>
+    <%= image_tag puzzle_image.image_or_empty, size: "100x100" %>
+    <%= puzzle_image.title %>
+  <% end %>
+<% end %>

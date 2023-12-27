@@ -8,4 +8,12 @@ class User < ApplicationRecord
 
   has_many :puzzle_images ,dependent: :destroy
   has_many :comments,dependent: :destroy
+  
+  def user_image_or_empty
+    if self.image.attached? == false
+      return "noimage_camera.jpg"
+    else
+      return image
+    end
+  end
 end
