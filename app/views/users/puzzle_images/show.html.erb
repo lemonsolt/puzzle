@@ -7,7 +7,8 @@
   <div class="row">
     <h4><%= @puzzle.title %></h4>
   </div>
-  <div class="row">
+  <div id="puzzle_container" class="row">
     <%= image_tag @puzzle.image_or_empty , size: "500x500" %>
   </div>
 </div>
+<script src="puzzle_piece.js"></script>
